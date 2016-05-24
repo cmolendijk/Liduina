@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              x:Class="hangoverApp.Views.CreateUserView" Title="{Binding Title}">
+  <ContentPage>
+    <StackLayout>
+      <StackLayout Spacing="15" VerticalOptions="CenterAndExpand">
+        <Entry Placeholder="Naam" Text="{Binding User.Name}" />
+        <Entry Placeholder="Email-adres" Text="{Binding User.Email}" />
+      </StackLayout>
+      <StackLayout Orientation="Horizontal" VerticalOptions="End" HorizontalOptions="Center">
+        <Button Text="Vorige" IsEnabled="false" />
+        <Button Text="Volgende" Style="{StaticResource PrimaryButton}" Clicked="Next_Click" />
+      </StackLayout>
+    </StackLayout>
+  </ContentPage>
+  <ContentPage>
+    <StackLayout>
+      <StackLayout Spacing="15" VerticalOptions="CenterAndExpand">
+        <Entry Placeholder="Straat + Huisnummer" Text="{Binding User.AddressLine}" />
+        <Entry Placeholder="Postcode" Text="{Binding User.ZipCode}" />
+        <Entry Placeholder="Stad" Text="{Binding User.City}" />
+      </StackLayout>
+      <StackLayout Orientation="Horizontal" VerticalOptions="End" HorizontalOptions="Center">
+        <Button Text="Vorige" Clicked="Previous_Click" />
+        <Button Text="Volgende" Style="{StaticResource PrimaryButton}" Clicked="Next_Click" />
+      </StackLayout>
+    </StackLayout>
+  </ContentPage>
+  <ContentPage>
+    <StackLayout>
+      <StackLayout Spacing="10" VerticalOptions="CenterAndExpand">
+        <ListView ItemsSource="{Binding UserTypes}" ItemTapped="Item_Tapped">
+          <ListView.ItemTemplate>
+            <DataTemplate>
+              <ImageCell ImageSource="{Binding Icon}" Text="{Binding Name}" Command="{Binding SelectUserTypeCommand}"/>
+            </DataTemplate>
+          </ListView.ItemTemplate>
+        </ListView>
+      </StackLayout>
+      <StackLayout Orientation="Horizontal" VerticalOptions="End" HorizontalOptions="Center">
+        <Button Text="Vorige" Clicked="Previous_Click" />
+        <Button Text="Registreer" Command="{Binding RegisterCommand}" Style="{StaticResource PrimaryButton}" />
+      </StackLayout>
+    </StackLayout>
+  </ContentPage>
+</CarouselPage>

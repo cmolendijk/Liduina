@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="hangoverApp.Views.PanicButtonView"
+             xmlns:local="clr-namespace:hangoverApp.MarkupExtensions;assembly=hangoverApp"
+             Title="{Binding Title}">
+  <ListView ItemsSource="{Binding PanicButtons}">
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <ViewCell>
+          <StackLayout Orientation="Horizontal" Spacing="5">
+            <Button Text="{Binding Title}" TextColor="#727272" BackgroundColor="Transparent" Command="{Binding ExecuteButtonActionsCommand}" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" FontSize="20"/>
+            <Button BackgroundColor="Transparent" Image="ic_settings_black_24dp.png" Command="{Binding ConfigureButtonActionsCommand}" />
+          </StackLayout>
+        </ViewCell>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+  </ListView>
+</ContentPage>
