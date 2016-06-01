@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Liduina.Mobile.Views.ConfigureButtonView"
+             Title="{Binding Title}">
+  <StackLayout Spacing="10">
+    <Entry Placeholder="Knop titel" Text="{Binding ButtonName}"/>
+    <ListView ItemsSource="{Binding Actions}" VerticalOptions="Center" HorizontalOptions="Center">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <StackLayout Orientation="Horizontal" Spacing="5">
+              <Image Source="Helper_Green.png" HorizontalOptions="Start"/>
+              <Label Text="{Binding Name}" TextColor="#727272" BackgroundColor="Transparent" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" FontSize="20"/>
+              <Button BackgroundColor="Transparent" Image="ic_delete_black_24dp.png" HorizontalOptions="End" />
+            </StackLayout>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </StackLayout>
+</ContentPage>

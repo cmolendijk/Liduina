@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Liduina.Mobile.MarkupExtensions;assembly=Liduina.Mobile"
+             x:Class="Liduina.Mobile.Views.MainPageView"
+             BackgroundColor="#009688">
+  <ContentPage.Content>
+    <StackLayout HorizontalOptions="Center">
+      <Image Source="{local:ImageResource Liduina.Mobile.Resources.Liduina_logo.png}"/>
+      <ActivityIndicator IsRunning="{Binding IsLoading}"/>
+      <Label TextColor="#FFFFFF" Text="{Binding LoadingText}" HorizontalOptions="Center" />
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

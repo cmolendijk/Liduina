@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liduina.Backend", "Liduina.Backend\Liduina.Backend.csproj", "{62F1B08E-182F-4847-9C11-05BEFAD9E10F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DL", "DL", "{F62C2B43-44BE-4C6D-96C7-B5CF5A105E47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liduina.DL.Models", "..\Shared\Liduina.DL.Models\Liduina.DL.Models.csproj", "{2BEACFC1-8654-4D84-9F25-49C1B54E5429}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liduina.DL.Providers", "Liduina.DL.Providers\Liduina.DL.Providers.csproj", "{4296692F-4170-4B64-91CD-084B96B94CA6}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Liduina.DL.Database", "Liduina.DL.Database\Liduina.DL.Database.sqlproj", "{0E2FAC51-4281-4F44-9A5B-BBE8D7F77C3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liduina.DL.Enums", "..\Shared\Liduina.DL.Enums\Liduina.DL.Enums.csproj", "{35B97953-711D-4D0C-B42B-42AAEE4EC089}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liduina.DL.Services", "Liduina.DL.Services\Liduina.DL.Services.csproj", "{AA03B0FD-A37A-4A7C-8D6B-ED4D08EB5E36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62F1B08E-182F-4847-9C11-05BEFAD9E10F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62F1B08E-182F-4847-9C11-05BEFAD9E10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62F1B08E-182F-4847-9C11-05BEFAD9E10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62F1B08E-182F-4847-9C11-05BEFAD9E10F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62F1B08E-182F-4847-9C11-05BEFAD9E10F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2BEACFC1-8654-4D84-9F25-49C1B54E5429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BEACFC1-8654-4D84-9F25-49C1B54E5429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BEACFC1-8654-4D84-9F25-49C1B54E5429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BEACFC1-8654-4D84-9F25-49C1B54E5429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4296692F-4170-4B64-91CD-084B96B94CA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4296692F-4170-4B64-91CD-084B96B94CA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4296692F-4170-4B64-91CD-084B96B94CA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4296692F-4170-4B64-91CD-084B96B94CA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2FAC51-4281-4F44-9A5B-BBE8D7F77C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2FAC51-4281-4F44-9A5B-BBE8D7F77C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2FAC51-4281-4F44-9A5B-BBE8D7F77C3D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0E2FAC51-4281-4F44-9A5B-BBE8D7F77C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2FAC51-4281-4F44-9A5B-BBE8D7F77C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2FAC51-4281-4F44-9A5B-BBE8D7F77C3D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{35B97953-711D-4D0C-B42B-42AAEE4EC089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B97953-711D-4D0C-B42B-42AAEE4EC089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B97953-711D-4D0C-B42B-42AAEE4EC089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B97953-711D-4D0C-B42B-42AAEE4EC089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA03B0FD-A37A-4A7C-8D6B-ED4D08EB5E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA03B0FD-A37A-4A7C-8D6B-ED4D08EB5E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA03B0FD-A37A-4A7C-8D6B-ED4D08EB5E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA03B0FD-A37A-4A7C-8D6B-ED4D08EB5E36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2BEACFC1-8654-4D84-9F25-49C1B54E5429} = {F62C2B43-44BE-4C6D-96C7-B5CF5A105E47}
+		{4296692F-4170-4B64-91CD-084B96B94CA6} = {F62C2B43-44BE-4C6D-96C7-B5CF5A105E47}
+		{0E2FAC51-4281-4F44-9A5B-BBE8D7F77C3D} = {F62C2B43-44BE-4C6D-96C7-B5CF5A105E47}
+		{35B97953-711D-4D0C-B42B-42AAEE4EC089} = {F62C2B43-44BE-4C6D-96C7-B5CF5A105E47}
+		{AA03B0FD-A37A-4A7C-8D6B-ED4D08EB5E36} = {F62C2B43-44BE-4C6D-96C7-B5CF5A105E47}
+	EndGlobalSection
+EndGlobal
