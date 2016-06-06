@@ -1,11 +1,11 @@
 
 using Android.App;
-using Liduina.Mobile.Device;
 using Android.Support.Design.Widget;
-using Liduina.Mobile.Droid.Device;
+using Liduina.Mobile.Droid.DeviceServices;
+using Liduina.Mobile.DeviceServices;
 
 [assembly: Xamarin.Forms.Dependency(typeof(AndroidDialogService))]
-namespace Liduina.Mobile.Droid.Device
+namespace Liduina.Mobile.Droid.DeviceServices
 {
     class AndroidDialogService : IDialogService
     {

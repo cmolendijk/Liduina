@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Liduina.Mobile.Device
+namespace Liduina.Mobile.DeviceServices
 {
     public interface IDialogService
     {

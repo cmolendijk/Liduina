@@ -1,11 +1,10 @@
-using System;
-using Liduina.Mobile.Device;
 using Android.App;
 using Android.Content;
-using Liduina.Mobile.Droid.Device;
+using Liduina.Mobile.DeviceServices;
+using Liduina.Mobile.Droid.DeviceServices;
 
-[assembly: Xamarin.Forms.Dependency(typeof (AndroidNotificationService))]
-namespace Liduina.Mobile.Droid.Device
+[assembly: Xamarin.Forms.Dependency(typeof(AndroidNotificationService))]
+namespace Liduina.Mobile.Droid.DeviceServices
 {
     public class AndroidNotificationService : INotificationService
     {
