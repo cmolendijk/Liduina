@@ -1,4 +1,4 @@
-﻿using Liduina.Mobile.Device;
+﻿using Liduina.Mobile.DeviceServices;
 using Liduina.Mobile.Services;
 using Liduina.Mobile.Views;
 using System;

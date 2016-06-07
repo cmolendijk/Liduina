@@ -1,4 +1,6 @@
-﻿using Liduina.Mobile.Views;
+﻿using Liduina.Mobile.DeviceServices;
+using Liduina.Mobile.I18n;
+using Liduina.Mobile.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +20,11 @@ namespace Liduina.Mobile
             // The root page of your application
             InitializeComponent();
             MainPage = new NavigationPage(new MainPageView());
+
+            if (Device.OS != TargetPlatform.WinPhone && Device.OS != TargetPlatform.Windows)
+            {
+                AppResources.Culture = DependencyService.Get<ILocalize>().GetCurrentCultureInfo();
+            }
         }
 
         protected override void OnStart()

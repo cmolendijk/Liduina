@@ -133,8 +133,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Device\AndroidDialogService.cs" />
-    <Compile Include="Device\AndroidNotificationService.cs" />
+    <Compile Include="DeviceServices\AndroidDialogService.cs" />
+    <Compile Include="DeviceServices\AndroidNotificationService.cs" />
+    <Compile Include="DeviceServices\Localize.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

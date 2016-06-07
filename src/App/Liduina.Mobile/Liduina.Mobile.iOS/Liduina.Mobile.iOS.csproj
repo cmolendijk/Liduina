@@ -10,7 +10,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Liduina.Mobile.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>Liduina.Mobile.iOS</AssemblyName>
+    <AssemblyName>LiduinaMobileiOS</AssemblyName>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
