@@ -5,21 +5,21 @@
   <ContentPage>
     <StackLayout>
       <StackLayout Spacing="15" VerticalOptions="CenterAndExpand">
-        <Entry Placeholder="Naam" Text="{Binding User.Name}" />
-        <Entry Placeholder="Email-adres" Text="{Binding User.Email}" />
+        <Entry Placeholder="Naam" Text="{Binding User.Name}" AutomationId="NameText" />
+        <Entry Placeholder="Email-adres" Text="{Binding User.Email}" AutomationId="EmailText" />
       </StackLayout>
       <StackLayout Orientation="Horizontal" VerticalOptions="End" HorizontalOptions="Center">
-        <Button Text="Vorige" IsEnabled="false" />
-        <Button Text="Volgende" Style="{StaticResource PrimaryButton}" Clicked="Next_Click" />
+        <Button Text="Vorige" IsEnabled="false" AutomationId="PreviousButton" />
+        <Button Text="Volgende" Style="{StaticResource PrimaryButton}" Clicked="Next_Click" AutomationId="NextButton" />
       </StackLayout>
     </StackLayout>
   </ContentPage>
   <ContentPage>
     <StackLayout>
       <StackLayout Spacing="15" VerticalOptions="CenterAndExpand">
-        <Entry Placeholder="Straat + Huisnummer" Text="{Binding User.AddressLine}" />
-        <Entry Placeholder="Postcode" Text="{Binding User.ZipCode}" />
-        <Entry Placeholder="Stad" Text="{Binding User.City}" />
+        <Entry Placeholder="Straat + Huisnummer" Text="{Binding User.AddressLine}" AutomationId="AddressText" />
+        <Entry Placeholder="Postcode" Text="{Binding User.ZipCode}" AutomationId="ZipText" />
+        <Entry Placeholder="Stad" Text="{Binding User.City}" AutomationId="CityText" />
       </StackLayout>
       <StackLayout Orientation="Horizontal" VerticalOptions="End" HorizontalOptions="Center">
         <Button Text="Vorige" Clicked="Previous_Click" />
