@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Liduina.Backend.Data.Entities": "1.0.0-*",
+    "Microsoft.EntityFrameworkCore": "1.0.1",
+    "Microsoft.NETCore.App": "1.0.1"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [
+        "dotnet5.6",
+        "portable-net45+win8"
+      ]
+    }
+  }
+}

@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Liduina.Backend.API", "src\Liduina.Backend.API\Liduina.Backend.API.xproj", "{B95862D4-46D2-4AA5-914A-86E64C95F3C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{761E8F69-95E4-4152-83B4-EABA4573E5E8}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Liduina.Backend.Data.Entities", "src\Liduina.Backend.Data.Entities\Liduina.Backend.Data.Entities.xproj", "{C5802A75-FCE9-4A82-871F-856F5F9073BF}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Liduina.Backend.Data.Providers", "src\Liduina.Backend.Data.Providers\Liduina.Backend.Data.Providers.xproj", "{394AC324-5A95-4F10-96E3-B46AB11236CB}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Liduina.Backend.Data.Repositories", "src\Liduina.Backend.Data.Repositories\Liduina.Backend.Data.Repositories.xproj", "{BFDEE70F-D29F-4CC6-B31F-EF7E44CB3D1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{E916F3DE-E20C-4400-A71E-F9289D7B7A19}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Liduina.Backend.Logic.Services", "src\Liduina.Backend.Logic.Services\Liduina.Backend.Logic.Services.xproj", "{5C0F6C74-94D7-4487-B5CD-0B093E3481D6}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Liduina.Backend.Logic.Models", "Liduina.Backend.Logic.Models\Liduina.Backend.Logic.Models.xproj", "{0D01E76F-5CB8-4B56-A8D0-04AB1525B677}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{06A0444D-9929-4521-B602-B629F309AA61}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Liduina.Backend.Logic.Helpers", "src\Liduina.Backend.Logic.Helpers\Liduina.Backend.Logic.Helpers.xproj", "{F8FCC90D-D0B5-4925-BBF9-2F1E60C10564}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B95862D4-46D2-4AA5-914A-86E64C95F3C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95862D4-46D2-4AA5-914A-86E64C95F3C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95862D4-46D2-4AA5-914A-86E64C95F3C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95862D4-46D2-4AA5-914A-86E64C95F3C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5802A75-FCE9-4A82-871F-856F5F9073BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5802A75-FCE9-4A82-871F-856F5F9073BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5802A75-FCE9-4A82-871F-856F5F9073BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5802A75-FCE9-4A82-871F-856F5F9073BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394AC324-5A95-4F10-96E3-B46AB11236CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394AC324-5A95-4F10-96E3-B46AB11236CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394AC324-5A95-4F10-96E3-B46AB11236CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394AC324-5A95-4F10-96E3-B46AB11236CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFDEE70F-D29F-4CC6-B31F-EF7E44CB3D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDEE70F-D29F-4CC6-B31F-EF7E44CB3D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDEE70F-D29F-4CC6-B31F-EF7E44CB3D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDEE70F-D29F-4CC6-B31F-EF7E44CB3D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C0F6C74-94D7-4487-B5CD-0B093E3481D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C0F6C74-94D7-4487-B5CD-0B093E3481D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C0F6C74-94D7-4487-B5CD-0B093E3481D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C0F6C74-94D7-4487-B5CD-0B093E3481D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D01E76F-5CB8-4B56-A8D0-04AB1525B677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D01E76F-5CB8-4B56-A8D0-04AB1525B677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D01E76F-5CB8-4B56-A8D0-04AB1525B677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D01E76F-5CB8-4B56-A8D0-04AB1525B677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8FCC90D-D0B5-4925-BBF9-2F1E60C10564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FCC90D-D0B5-4925-BBF9-2F1E60C10564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FCC90D-D0B5-4925-BBF9-2F1E60C10564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FCC90D-D0B5-4925-BBF9-2F1E60C10564}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C5802A75-FCE9-4A82-871F-856F5F9073BF} = {761E8F69-95E4-4152-83B4-EABA4573E5E8}
+		{394AC324-5A95-4F10-96E3-B46AB11236CB} = {761E8F69-95E4-4152-83B4-EABA4573E5E8}
+		{BFDEE70F-D29F-4CC6-B31F-EF7E44CB3D1D} = {761E8F69-95E4-4152-83B4-EABA4573E5E8}
+		{5C0F6C74-94D7-4487-B5CD-0B093E3481D6} = {E916F3DE-E20C-4400-A71E-F9289D7B7A19}
+		{0D01E76F-5CB8-4B56-A8D0-04AB1525B677} = {E916F3DE-E20C-4400-A71E-F9289D7B7A19}
+		{F8FCC90D-D0B5-4925-BBF9-2F1E60C10564} = {E916F3DE-E20C-4400-A71E-F9289D7B7A19}
+	EndGlobalSection
+EndGlobal

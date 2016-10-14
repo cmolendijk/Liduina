@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "AutoMapper": "5.1.1",
+    "Liduina.Backend.Data.Repositories": "1.0.0-*",
+    "Liduina.Backend.Logic.Models": "1.0.0-*",
+    "Microsoft.NETCore.App": "1.0.1"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [
+        "dotnet5.6",
+        "portable-net45+win8"
+      ]
+    }
+  }
+}
