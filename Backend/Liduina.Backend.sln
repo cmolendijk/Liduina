@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{E916F3DE
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Liduina.Backend.Logic.Services", "src\Liduina.Backend.Logic.Services\Liduina.Backend.Logic.Services.xproj", "{5C0F6C74-94D7-4487-B5CD-0B093E3481D6}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Liduina.Backend.Logic.Models", "Liduina.Backend.Logic.Models\Liduina.Backend.Logic.Models.xproj", "{0D01E76F-5CB8-4B56-A8D0-04AB1525B677}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Liduina.Backend.Logic.Models", "src\Liduina.Backend.Logic.Models\Liduina.Backend.Logic.Models.xproj", "{0D01E76F-5CB8-4B56-A8D0-04AB1525B677}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{06A0444D-9929-4521-B602-B629F309AA61}"
 	ProjectSection(SolutionItems) = preProject
