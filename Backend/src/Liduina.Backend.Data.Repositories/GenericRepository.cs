@@ -16,10 +16,10 @@ namespace Liduina.Backend.Data.Repositories
 
         public GenericRepository(LiduinaContext context)
         {
-            this._context = context;
+            _context = context;
         }
         
-        public async Task<ICollection<TEntity>> GetAllAsync()
+        public async Task<ICollection<TEntity>> GetAll()
         {
             return await _context.Set<TEntity>().ToListAsync();
         }

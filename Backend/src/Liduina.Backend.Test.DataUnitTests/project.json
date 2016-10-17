@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0-*",
+  "testRunner": "xunit",
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "version": "1.0.1",
+      "type": "platform"
+    },
+    "xunit": "2.2.0-beta2-build3300",
+    "Liduina.Backend.Data.Repositories": "1.0.0-*",
+    "dotnet-test-xunit": "2.2.0-preview2-build1029",
+    "Liduina.Backend.Data.Providers": "1.0.0-*",
+    "Moq": "4.6.38-alpha",
+    "Liduina.Backend.Data.Entities": "1.0.0-*"
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [
+        "dotnet5.6",
+        "portable-net45+win8"
+      ]
+    }
+  }
+}

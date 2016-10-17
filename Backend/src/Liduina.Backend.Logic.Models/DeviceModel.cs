@@ -7,8 +7,6 @@ namespace Liduina.Backend.Logic.Models
 {
     public class DeviceModel
     {
-        public DeviceModel()
-        {
-        }
+        public string Identifier { get; set; }
     }
 }

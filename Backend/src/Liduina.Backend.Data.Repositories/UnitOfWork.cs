@@ -18,7 +18,7 @@ namespace Liduina.Backend.Data.Repositories
 
         private GenericRepository<Device> _deviceRepository;
 
-        public GenericRepository<Device> DeviceRepository
+        public virtual GenericRepository<Device> DeviceRepository
         {
             get
             {
