@@ -6,7 +6,7 @@
     "Liduina.Backend.Data.Entities": "1.0.0-*",
     "Liduina.Backend.Data.Providers": "1.0.0-*",
     "Liduina.Backend.Logic.Models": "1.0.0-*",
-    "Microsoft.NETCore.App": "1.0.1"
+    "Microsoft.NETCore": "5.0.0"
   },
 
   "frameworks": {

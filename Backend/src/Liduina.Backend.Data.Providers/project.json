@@ -4,7 +4,7 @@
   "dependencies": {
     "Liduina.Backend.Data.Entities": "1.0.0-*",
     "Microsoft.EntityFrameworkCore": "1.0.1",
-    "Microsoft.NETCore.App": "1.0.1"
+    "Microsoft.NETCore": "5.0.0"
   },
 
   "frameworks": {
