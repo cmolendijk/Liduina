@@ -19,34 +19,34 @@ namespace Liduina.Backend.Data.Repositories
             _context = context;
         }
         
-        public async Task<ICollection<TEntity>> GetAll()
+        public virtual async Task<ICollection<TEntity>> GetAll()
         {
             return await _context.Set<TEntity>().ToListAsync();
         }
 
-        public async Task<TEntity> Get(long id)
+        public virtual async Task<TEntity> Get(long id)
         {
             return await _context.Set<TEntity>().SingleOrDefaultAsync(e => e.Id == id);
         }
-        
-        public async Task<TEntity> Find(Expression<Func<TEntity, bool>> match)
+
+        public virtual async Task<TEntity> Find(Expression<Func<TEntity, bool>> match)
         {
             return await _context.Set<TEntity>().SingleOrDefaultAsync(match);
         }
 
-        public async Task<ICollection<TEntity>> FindAll(Expression<Func<TEntity, bool>> match)
+        public virtual async Task<ICollection<TEntity>> FindAll(Expression<Func<TEntity, bool>> match)
         {
             return await _context.Set<TEntity>().Where(match).ToListAsync();
         }
 
-        public async Task<TEntity> Add(TEntity entity)
+        public virtual async Task<TEntity> Add(TEntity entity)
         {
             _context.Set<TEntity>().Add(entity);
             await _context.SaveChangesAsync();
             return entity;
         }
-        
-        public async Task<bool> Update(TEntity entity)
+
+        public virtual async Task<bool> Update(TEntity entity)
         {
             if (entity == null)
                 return false;
@@ -59,14 +59,14 @@ namespace Liduina.Backend.Data.Repositories
             }
             return existing != null;
         }
-        
-        public async Task<bool> Delete(TEntity entity)
+
+        public virtual async Task<bool> Delete(TEntity entity)
         {
             entity.DeletedOn = DateTime.Now;
             return await Update(entity);
         }
 
-        public async Task<int> Count()
+        public virtual async Task<int> Count()
         {
             return await _context.Set<TEntity>().CountAsync();
         }

@@ -12,7 +12,9 @@
     "Liduina.Backend.Logic.Services": "1.0.0-*",
     "Liduina.Backend.Data.Repositories": "1.0.0-*",
     "Liduina.Backend.Data.Entities": "1.0.0-*",
-    "Liduina.Backend.Logic.Helpers": "1.0.0-*"
+    "Liduina.Backend.Logic.Helpers": "1.0.0-*",
+    "Liduina.Backend.Data.Providers": "1.0.0-*",
+    "Liduina.Backend.Logic.Models": "1.0.0-*"
   },
   "frameworks": {
     "netcoreapp1.0": {
