@@ -9,6 +9,7 @@ using Liduina.Backend.Logic.Helpers;
 using Liduina.Backend.Logic.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -32,11 +33,13 @@ namespace Liduina.Backend.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // Add Database
+            services.AddDbContext<LiduinaContext>(options => options.UseSqlServer(Configuration.GetConnectionString("LiduinaDatabase")));
+
             // Add automapper configuration
             services.AddSingleton(AutoMapperConfiguration.GetMapper());
             
             // Add liduina data
-            services.AddTransient<LiduinaContext>();
             services.AddTransient<UnitOfWork>();
 
             // Add liduina services.

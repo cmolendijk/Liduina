@@ -32,6 +32,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Liduina.Backend.Test.DataUn
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Liduina.Backend.Test.LogicUnitTests", "src\Liduina.Backend.Test.LogicUnitTests\Liduina.Backend.Test.LogicUnitTests.xproj", "{917D9EF9-6D67-42BF-88DF-FFF7556BF504}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Liduina.Backend.Data.LiduinaDatabase", "src\Liduina.Backend.Data.LiduinaDatabase\Liduina.Backend.Data.LiduinaDatabase.sqlproj", "{DA5E189B-145E-42A3-A3B1-78F1DD48C605}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -74,6 +76,12 @@ Global
 		{917D9EF9-6D67-42BF-88DF-FFF7556BF504}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{917D9EF9-6D67-42BF-88DF-FFF7556BF504}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{917D9EF9-6D67-42BF-88DF-FFF7556BF504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA5E189B-145E-42A3-A3B1-78F1DD48C605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA5E189B-145E-42A3-A3B1-78F1DD48C605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA5E189B-145E-42A3-A3B1-78F1DD48C605}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DA5E189B-145E-42A3-A3B1-78F1DD48C605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA5E189B-145E-42A3-A3B1-78F1DD48C605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA5E189B-145E-42A3-A3B1-78F1DD48C605}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,5 +95,6 @@ Global
 		{F8FCC90D-D0B5-4925-BBF9-2F1E60C10564} = {E916F3DE-E20C-4400-A71E-F9289D7B7A19}
 		{78D27224-617A-4410-9464-E856C4F071D4} = {3FB4D247-B54D-4E57-A5C9-2F5C616F84A4}
 		{917D9EF9-6D67-42BF-88DF-FFF7556BF504} = {3FB4D247-B54D-4E57-A5C9-2F5C616F84A4}
+		{DA5E189B-145E-42A3-A3B1-78F1DD48C605} = {761E8F69-95E4-4152-83B4-EABA4573E5E8}
 	EndGlobalSection
 EndGlobal
