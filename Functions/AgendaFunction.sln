@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{33AD0EE8-D99B-4E14-8CD9-3F56ABEF97A2}") = "AgendaFunction", "AgendaFunction\AgendaFunction.funproj", "{54555B68-9AFE-4512-81BD-93B0AE7DA77B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54555B68-9AFE-4512-81BD-93B0AE7DA77B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54555B68-9AFE-4512-81BD-93B0AE7DA77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54555B68-9AFE-4512-81BD-93B0AE7DA77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54555B68-9AFE-4512-81BD-93B0AE7DA77B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

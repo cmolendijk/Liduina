@@ -1,0 +1,25 @@
+﻿{
+  "disabled": false,
+  "bindings": [
+				{
+						"name": "agendaMessage",
+						"type": "serviceBusTrigger",
+						"direction": "in",
+						"topicName": "agendatopic",
+						"subscriptionName": "Outlook",
+						"connection": "AzureWebJobsServiceBus",
+						"accessRights": "Manage"
+				},
+				{
+										"name": "oauthKey",
+										"type": "table",
+										"tableName": "AgendaOauthKeys",
+										"partitionKey": "Outlook",
+										"rowKey": "{topicTrigger}",
+										"connection": "AzureWebJobsStorageAccount",
+
+
+
+				}
+  ]
+}
