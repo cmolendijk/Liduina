@@ -1,8 +1,10 @@
 ﻿{
-  "frameworks": {
-    "net46":{
-      "dependencies": {
-      }
-    }
-  }
+		"frameworks": {
+				"net46": {
+						"dependencies": {
+								"WindowsAzure.Storage": "8.0.0",
+								"Microsoft.WindowsAzure.ConfigurationManager": "3.2.3"
+						}
+				}
+		}
 }
