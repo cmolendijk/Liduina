@@ -1,7 +1,7 @@
 ﻿using LiduinaAzureFunctionModels;
 using Microsoft.Azure.WebJobs.Host;
 
-namespace AgendaFunctions
+namespace Liduina.AgendaFunctions
 {
     public class Outlook
     {
