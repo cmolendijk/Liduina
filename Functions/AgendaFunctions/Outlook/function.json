@@ -1,5 +1,7 @@
 ﻿{
 		"disabled": false,
+		"scriptFile": "..\\bin\\AgendaFunctions.dll",
+		"entryPoint": "AgendaFunctions.Outlook.Run",
 		"bindings": [
 				{
 						"name": "agendaMessage",
@@ -15,8 +17,8 @@
 						"type": "table",
 						"tableName": "AgendaOauthKeys",
 						"partitionKey": "Outlook",
-						"rowKey": "1",
-						"connection": "AzureWebJobsStorageAccount",
+						"rowKey": "{RowKey}",
+						"connection": "liduina_STORAGE",
 						"direction": "in"
 				}
 		]
