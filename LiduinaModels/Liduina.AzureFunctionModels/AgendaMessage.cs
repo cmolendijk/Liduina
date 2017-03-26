@@ -1,4 +1,4 @@
-﻿namespace LiduinaAzureFunctionModels
+﻿namespace Liduina.AzureFunctionModels
 {
     public class AgendaMessage
     {
