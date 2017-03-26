@@ -18,7 +18,7 @@
 						"tableName": "AgendaOauthKeys",
 						"partitionKey": "Outlook",
 						"rowKey": "{RowKey}",
-						"connection": "liduina_STORAGE",
+						"connection": "AzureWebJobsStorage",
 						"direction": "in"
 				}
 		]
