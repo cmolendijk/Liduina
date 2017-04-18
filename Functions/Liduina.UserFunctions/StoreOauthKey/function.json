@@ -1,0 +1,23 @@
+﻿{
+		"disabled": false,
+		"scriptFile": "..\\bin\\Liduina.UserFunctions.dll",
+		"entryPoint": "Liduina.UserFunctions.StoreOauthKey.Run",
+		"bindings": [
+				{
+						"type": "httpTrigger",
+						"direction": "in",
+						"name": "req",
+						"methods": [
+								"get"
+						],
+						"authLevel": "function"
+				},
+				{
+						"type": "table",
+						"name": "outTable",
+						"tableName": "AgendaOauthKeys",
+						"connection": "AzureWebJobsStorage",
+						"direction": "out"
+				}
+		]
+}

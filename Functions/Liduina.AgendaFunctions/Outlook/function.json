@@ -1,7 +1,7 @@
 ﻿{
 		"disabled": false,
-		"scriptFile": "..\\bin\\AgendaFunctions.dll",
-		"entryPoint": "AgendaFunctions.Outlook.Run",
+		"scriptFile": "..\\bin\\Liduina.AgendaFunctions.dll",
+		"entryPoint": "Liduina.AgendaFunctions.Outlook.Run",
 		"bindings": [
 				{
 						"name": "agendaMessage",
