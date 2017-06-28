@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liduina.AgendaFunctions", "Liduina.AgendaFunctions\Liduina.AgendaFunctions.csproj", "{DB97BE35-FD78-4A39-B66A-BB44E48173E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liduina.UserFunctions", "Liduina.UserFunctions\Liduina.UserFunctions.csproj", "{E77BC454-F0CB-43A2-8132-FE7303721CEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB97BE35-FD78-4A39-B66A-BB44E48173E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB97BE35-FD78-4A39-B66A-BB44E48173E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB97BE35-FD78-4A39-B66A-BB44E48173E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB97BE35-FD78-4A39-B66A-BB44E48173E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E77BC454-F0CB-43A2-8132-FE7303721CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E77BC454-F0CB-43A2-8132-FE7303721CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E77BC454-F0CB-43A2-8132-FE7303721CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E77BC454-F0CB-43A2-8132-FE7303721CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

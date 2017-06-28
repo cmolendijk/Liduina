@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <AssemblyName>Liduina.Backend.Logic.Helpers</AssemblyName>
+    <PackageId>Liduina.Backend.Logic.Helpers</PackageId>
+    <PackageTargetFallback>$(PackageTargetFallback);dotnet5.6;portable-net45+win8</PackageTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="5.1.1" />
+    <PackageReference Include="Microsoft.NETCore" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Liduina.Backend.Data.Entities\Liduina.Backend.Data.Entities.csproj" />
+    <ProjectReference Include="..\Liduina.Backend.Data.Providers\Liduina.Backend.Data.Providers.csproj" />
+    <ProjectReference Include="..\Liduina.Backend.Logic.Models\Liduina.Backend.Logic.Models.csproj" />
+  </ItemGroup>
+
+</Project>
