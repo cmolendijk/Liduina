@@ -271,3 +271,4 @@ __pycache__/
 appsettings.json
 tmp
 /tmp
+/src/Liduina.Backend.Workers.AgendaFunctions/local.settings.json
