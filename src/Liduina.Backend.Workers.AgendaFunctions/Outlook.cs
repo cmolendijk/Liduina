@@ -10,7 +10,7 @@ namespace Liduina.Backend.Workers.AgendaFunctions
         [FunctionName("agendaMessage")]
         public static void Run(
             [ServiceBusTrigger("agendatopic", "Outlook", AccessRights.Manage, Connection = "AzureWebJobsServiceBus")]AgendaMessage agendaMessage, 
-            [Table("oauthKey", "Outlook", "{RowKey}", Connection = "AzureWebJobsStorage")] OauthKey oauthKey,
+            [Table("AgendaOauthKeys", "Outlook", "{RowKey}", Connection = "AzureWebJobsStorage")] OauthKey oauthKey,
             TraceWriter log)
         {
             log.Info($"C# ServiceBus topic trigger function processed message with row key: {agendaMessage.RowKey} and key: {oauthKey.Key}");

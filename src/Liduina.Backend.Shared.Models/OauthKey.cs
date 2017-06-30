@@ -1,6 +1,8 @@
-﻿namespace Liduina.Backend.Shared.Models
+﻿using Microsoft.WindowsAzure.Storage.Table;
+
+namespace Liduina.Backend.Shared.Models
 {
-    public class OauthKey
+    public class OauthKey : TableEntity
     {
         public OauthKey(string userId, string agendaProvider)
         {
@@ -9,9 +11,7 @@
         }
 
         public OauthKey() { }
-
-        public string PartitionKey { get; set; }
-        public string RowKey { get; set; }
+        
         public string Key { get; set; }
     }
 }
