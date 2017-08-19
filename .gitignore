@@ -269,3 +269,6 @@ __pycache__/
 
 #Azure Functions
 appsettings.json
+tmp
+/tmp
+/src/Liduina.Backend.Workers.AgendaFunctions/local.settings.json
